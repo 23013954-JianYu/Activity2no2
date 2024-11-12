@@ -102,7 +102,7 @@ const MyApp = () => {
                 onValueChange={(value) => handleAnswerChange(value, index)}
             />
         ))}
-        <Button title="Submit Answers" onPress={handleSubmit} />
+        <Button title="Submit Answers test" onPress={handleSubmit} />
       </ScrollView>
   );
 };
